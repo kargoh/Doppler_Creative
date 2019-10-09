@@ -1,4 +1,6 @@
-.nav { background-color: #111; display: flex; height: 100px; position: fixed; width: 100%; z-index: 1; }
-.nav .logo { display: block; padding: 32px 0px 0px 12px; width: 257px; }
-.nav ul { align-items: center; display: flex; height: 68px; justify-content: flex-end; list-style: none; margin: 0; padding: 0; width: 60%; }
-.nav ul li { color: #fff; display: block; }
+.nav { height: 100px; display: flex; position: fixed; width: 100%; z-index: 1; }
+.nav .logo {     display: block; padding: 32px 0px 0px 12px; width: 257px; }
+.nav ul { display: flex; list-style: none; padding: 0; margin: 0; height: 68px; align-items: center; justify-content: flex-end; width: 70%; }
+.nav ul li { display: block; color: #fff; font-size: 16px; padding: 10px; text-transform: uppercase;  }
+
+.hero { background-image: url("/assets/images/insta-header.jpg"); height: 600px; background-image: linear-gradient(to right, #036ffc, #d900ff); }
